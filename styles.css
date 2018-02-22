@@ -1,0 +1,160 @@
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  padding-top: 70px;
+  width=100%
+}
+head{
+  margin-left: inherit;
+  width: 100%;
+}
+
+p {
+  font-size: 120%;
+}
+.navcontainer{
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+/*h1 {
+  margin-left: 0%;
+  font-size: 300%;
+  color: #F0C244;
+  font-family: "Times New Roman", Times, serif;
+}*/
+
+
+.logo{
+  margin-top: 8px;
+  margin-left: 0%;
+  font-size: 200%;
+  /*color: #F0C244;*/
+  color: #D6A626;
+  padding-left: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  text-align: left;
+}
+
+.gray{
+  background-color: #D6D6D6;
+}
+
+.gold{
+ color: white;
+ font-family: "Times New Roman", Times, serif;
+ font-weight: bold;
+}
+
+.image_title {
+  text-align: center;
+}
+
+.gallery{
+  max-height: 325px;
+}
+
+.gallery_display{
+  margin-left: 5%;
+}
+
+.consultant {
+  font-size: 170%;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+.publication
+{
+  margin-left: 2.5%;
+  margin-bottom: 1.25%;
+  font-size: 130%;
+}
+
+.pub_summary {
+  margin-left: 3.5%;
+  font-style: italic;
+  margin-bottom: 2%;
+  font-size: 130%;
+  color: grey;
+}
+
+
+.home {
+  text-align: left;
+  text-indent: 25px;
+}
+
+.link {
+  font-size: 130%;
+}
+
+.indexlink {
+  font-size: 130%;
+}
+
+.video {
+    width: 100%;
+    height: 400px
+}
+
+.mini_pic{
+  width: 200px;
+  height: 115px;
+  display: inline-flex;
+}
+
+/*Mobile Settings*/
+@media (max-width:600px){
+  .pub_summary {
+    margin-left: 7.5%;
+    font-style: italic;
+    margin-bottom: 10%;
+  }
+  body{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding-top: 70px;
+  }
+  .publication
+  {
+    margin-left: 2.5%;
+    margin-bottom: 4%;
+  }
+  .mini_pic{
+    width: 200px;
+    height: 115px;
+    display: none;
+  }
+
+  /*h1 {
+    margin-left: 0%;
+    font-size: 300%;
+    color: #F0C244;
+    font-family: "Times New Roman", Times, serif;
+  }*/
+
+
+  .logo{
+    margin-top: 8px;
+    margin-left: 0%;
+    font-size: 200%;
+    /*color: #F0C244;*/
+    color: #D6A626;
+    padding-left: 15px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .image_title {
+    text-align: center;
+    font-size: 75%;
+  }
+
+}
