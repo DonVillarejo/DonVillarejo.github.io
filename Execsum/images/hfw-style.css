@@ -1,0 +1,87 @@
+BODY {
+	BACKGROUND-COLOR: #ffffff; COLOR: #008080; FONT-FAMILY: Arial, Verdana, Helvetica, sans-serif; MARGIN-LEFT: 2em; MARGIN-RIGHT: 2em
+}
+A:link {
+	COLOR: #008080
+}
+A:active {
+	COLOR: red; FONT-WEIGHT: bold
+}
+A:visited {
+	COLOR: #630863
+}
+H1 {
+	COLOR: #660066
+}
+H2 {
+	COLOR: #660066
+}
+H3 {
+	COLOR: #660066
+}
+H4 {
+	COLOR: #660066
+}
+H5 {
+	COLOR: #660066
+}
+H6 {
+	COLOR: #660066
+}
+H1 {
+	FONT-SIZE: 1.5em; TEXT-ALIGN: center
+}
+H2 {
+	FONT-SIZE: 1.3em; FONT-WEIGHT: bold; TEXT-ALIGN: center
+}
+H3 {
+	FONT-SIZE: 1.1em
+}
+P {
+	COLOR: #008080; MARGIN-LEFT: 1em; MARGIN-RIGHT: 1em
+}
+I {
+	COLOR: #630863
+}
+B {
+	COLOR: #630863
+}
+BIG {
+	COLOR: #630863
+}
+STRONG {
+	COLOR: #630863
+}
+HR {
+	COLOR: #630863
+}
+TD {
+	COLOR: #008080
+}
+UL {
+	COLOR: #008080
+}
+OL {
+	COLOR: #008080
+}
+P.pd {
+	BACKGROUND: black; COLOR: white; FONT-SIZE: small; TEXT-ALIGN: center
+}
+UL {
+	LIST-STYLE: disc
+}
+OL OL {
+	LIST-STYLE: upper-alpha
+}
+UL OL OL {
+	LIST-STYLE: lower-alpha
+}
+OL OL UL {
+	LIST-STYLE: disc
+}
+OL UL {
+	LIST-STYLE: disc
+}
+OL UL UL {
+	LIST-STYLE: circle
+}
