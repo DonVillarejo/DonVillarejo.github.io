@@ -37,6 +37,13 @@ p {
   font-family: "Times New Roman", Times, serif;
 }
 
+.logobig{
+  font-size: larger;
+  /*color: #D6A626;*/
+  color: black;
+}
+
+
 h2 {
   text-align: left;
 }
@@ -109,6 +116,7 @@ h2 {
   height: 115px;
   display: inline-flex;
 }
+
 
 /*Mobile Settings*/
 @media (max-width:600px){
