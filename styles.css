@@ -84,6 +84,14 @@ h2 {
   font-size: 130%;
 }
 
+.publication_index
+{
+  margin-left: 2.5%;
+  margin-bottom: 1.25%;
+  font-size: 130%;
+  text-align: center;
+}
+
 .pub_summary {
   margin-left: 3.5%;
   font-style: italic;
