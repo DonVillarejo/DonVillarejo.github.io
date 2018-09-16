@@ -1,24 +1,26 @@
 body{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5%;
-  padding-top: 70px;
-  width=100%
+  padding-top: 50px;
+  margin-bottom: 0px;
+  width=100%;
 }
-head{
-  margin-left: inherit;
-  width: 100%;
-}
+
 
 p {
   font-size: 120%;
+}
+.primarySection{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
 .navcontainer{
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
 }
-
+.buttonsection{
+  margin-bottom: 5px;
+}
 /*h1 {
   margin-left: 0%;
   font-size: 300%;
@@ -26,10 +28,8 @@ p {
   font-family: "Times New Roman", Times, serif;
 }*/
 
-.nomargin{
-  margin-left: 0px;
-  margin-right: 0px;
-  width: 100%;
+.footer{
+  margin-bottom: 0px;
 }
 
 .logo{
@@ -53,9 +53,9 @@ h2 {
   text-align: left;
 }
 
-.gray{
-  background-color: #D6D6D6;
-}
+/* .gray{ */
+  /* background-color: #D6D6D6; */
+/* } */
 
 .gold{
  color: white;
@@ -125,8 +125,10 @@ h2 {
     height: 400px
 }
 
-.bottom{
-  margin-bottom: 10px;
+.buttons{
+  margin-bottom: 25px;
+  margin-top: 25px;
+  text-align: center;
 }
 
 .mini_pic{
@@ -144,10 +146,7 @@ h2 {
     margin-bottom: 10%;
   }
   body{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 5%;
-    padding-top: 70px;
+    padding-top: 50px;
   }
   .publication
   {
